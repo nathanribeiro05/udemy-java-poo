@@ -12,9 +12,8 @@ public class Estoque {
         String nome = sc.nextLine();
         System.out.print("Price: ");
         double preco = sc.nextDouble();
-        System.out.print("Quantity in stock: ");
-        int quantidade = sc.nextInt();
-        Produto produto = new Produto(nome, preco, quantidade); //Variável produto já é criada com definição.
+        
+        Produto produto = new Produto(nome, preco); //Variável produto já é criada com definição.
 
         System.out.println();
         System.out.println("Product data: " + produto);

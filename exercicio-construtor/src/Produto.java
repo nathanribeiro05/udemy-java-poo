@@ -10,6 +10,11 @@ public class Produto {
         this.quantity = quantity;
     }
 
+    public Produto(String name, double price) { //Construtor realizando sobrecarga
+        this.name = name;
+        this.price = price;
+    }
+
     public double totalValueInStock() {
         return quantity * price;
          
