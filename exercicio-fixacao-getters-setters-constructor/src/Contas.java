@@ -1,16 +1,16 @@
-public class Conta {
+public class Contas {
     
     private int numero;
     private String titular;
     private double saldo;
 
     
-    public Conta(int numero, String titular) {
+    public Contas(int numero, String titular) {
         this.numero = numero;
         this.titular = titular;
     }
 
-    public Conta(int numero, String titular, double depositoInicial) {
+    public Contas(int numero, String titular, double depositoInicial) {
         this.numero = numero;
         this.titular = titular;
         deposito(depositoInicial);
