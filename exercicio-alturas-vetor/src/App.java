@@ -41,6 +41,7 @@ public class App {
         int n;
         System.out.print("Quantas pessoas serão digitadas? ");
         n = sc.nextInt();
+        
 
         Dados[] vetor = new Dados[n];
 
@@ -49,9 +50,9 @@ public class App {
         double height;
         for(int i = 0; i < n; i++) {
             System.out.printf("Dados da %da pessoa:\n", i + 1);
-            System.out.print("Nome: ");
-            name = sc.nextLine();
             sc.nextLine();
+            System.out.print("Nome: ");
+            name = sc.nextLine();      
             System.out.print("Idade: ");
             age = sc.nextInt();
             System.out.print("Altura: ");
